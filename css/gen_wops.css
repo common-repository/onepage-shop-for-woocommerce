@@ -1,0 +1,118 @@
+.wops_add_btn{
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 40px;
+}
+.wops_add_btn a{
+  cursor: pointer;
+  text-decoration: none!important;
+  
+}
+  
+.wops_add_cart{
+  background: url("../images/add_cart.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  width: 100px;
+  height: 30px;  
+}
+
+.wops_search{
+  /*background: url("../images/search-button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0)!important;*/
+  background:#44c767!important;
+	border:2px solid #18ab29!important;  
+  font-size: 12px!important;
+  padding:1px 4px!important;
+  font-weight: bold;
+  color: #FFFFFF!important;
+}
+/*
+.wops_search {
+	background-color:#44c767;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	padding:3px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}*/
+.wops_search:hover {
+	background-color:#5cbf2a!important;
+}
+
+/*----Pagination-----*/
+.wppp-pagination {
+    display:inline-block;
+    width: 100%;                   
+}
+
+.wppp-pagination .page-numbers{
+    padding:2px 6px;
+    margin:2px;
+    border:1px solid #4A5154;
+    text-decoration:none;
+    color:#4A5154;
+    background: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    position: relative;
+}
+.wppp-pagination .page-numbers:hover,
+.wppp-pagination .page-numbers:active{
+    border:1px solid #4A5154;
+    background-color:#4A5154;
+    color:#fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.wppp-pagination .page-numbers.current{
+    padding:2px 8px;
+    margin:2px;
+    border:1px solid #4A5154;
+    font-weight:bold;
+    background-color:#4A5154;
+    color:#FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+/*----- End Pagination -----*/
+/*--tooltip--*/
+
+#preview{
+	position:absolute;
+	border:1px solid #FFF;
+	background:#FFF;
+  border: solid 2px #cccccc;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+#preview img{
+  max-width: 300px;	
+	}  
+  
+/*------*/
+.alert {
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alertAdd {
+    bottom: 0;
+    display: none;
+    position: fixed;
+    right: 150px;
+    text-align: center;
+    z-index: 1100;
+    text-align: center;
+}
+.alert-info {
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    color: #3A87AD;
+}
